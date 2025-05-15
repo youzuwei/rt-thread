@@ -17,13 +17,6 @@
       ]
     },
     {
-      "RTT_BSP": "RTduino_Arduino Libraries (STM32F412 Nucleo)",
-      "RTT_TOOL_CHAIN": "sourcery-arm",
-      "SUB_RTT_BSP": [
-        "stm32/stm32f412-st-nucleo"
-      ]
-    },
-    {
       "RTT_BSP": "RTduino_Arduino Libraries (Raspberry Pico)",
       "RTT_TOOL_CHAIN": "sourcery-arm",
       "SUB_RTT_BSP": [
@@ -69,7 +62,6 @@
       "RTT_BSP": "others_ft32_mm32_acm32",
       "RTT_TOOL_CHAIN": "sourcery-arm",
       "SUB_RTT_BSP": [
-        "phytium/aarch32",
         "airm2m/air32f103",
         "acm32/acm32f0x0-nucleo",
         "acm32/acm32f0x0-nucleo",
@@ -169,6 +161,7 @@
         "stm32/stm32f411-st-nucleo",
         "stm32/stm32f411-atk-nano",
         "stm32/stm32f411-weact-blackpill",
+        "stm32/stm32f412-st-nucleo",
         "stm32/stm32f413-st-nucleo",
         "stm32/stm32f427-robomaster-a",
         "stm32/stm32f429-armfly-v6",
@@ -371,7 +364,6 @@
       "RTT_BSP": "aarch64",
       "RTT_TOOL_CHAIN": "sourcery-aarch64",
       "SUB_RTT_BSP": [
-        "phytium/aarch64",
         "qemu-virt64-aarch64",
         "raspberry-pi/raspi3-64",
         "raspberry-pi/raspi4-64"
@@ -392,8 +384,6 @@
       "RTT_TOOL_CHAIN": "sourcery-riscv64-unknown-elf",
       "SUB_RTT_BSP": [
         "bluetrum/ab32vg1-ab-prougen",
-        "bouffalo_lab/bl60x",
-        "bouffalo_lab/bl70x",
         "qemu-virt64-riscv"
       ]
     },
@@ -464,6 +454,13 @@
       "RTT_SMART_TOOL_CHAIN": "arm-linux-musleabi",
       "SUB_RTT_BSP": [
         "qemu-vexpress-a9"
+      ]
+    },
+    {
+      "RTT_BSP": "xuantie",
+      "RTT_TOOL_CHAIN": "sourcery-Xuantie-900-gcc-elf-newlib",
+      "SUB_RTT_BSP": [
+        "xuantie/smartl/e906"
       ]
     }
   ]
