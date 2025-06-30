@@ -49,6 +49,10 @@ tag: bsp_cvitek
 path: bsp/cvitek
 owners: Chen Wang(unicornx)<unicorn_wang@outlook.com>
 
+tag: bsp_gd32105c-eval
+path: bsp/gd32/arm/gd32105c-eval
+owners: Xiansong Cao(CXSforHPU)<19511928573@163.com>
+
 tag: bsp_gd32470z-lckfb
 path: bsp/gd32/arm/gd32470z-lckfb
 owners: Wu Ying Xiang(godmial)<2633967641@qq.com>
@@ -56,6 +60,14 @@ owners: Wu Ying Xiang(godmial)<2633967641@qq.com>
 tag: bsp_k230
 path: bsp/k230
 owners: Chen Wang(unicornx)<unicorn_wang@outlook.com>
+
+tag: bsp_mcxa
+path: bsp/nxp/mcx/mcxa
+owners: 下里巴人(hywing)<hywing.sir@qq.com>
+
+tag: bsp_mcxn
+path: bsp/nxp/mcx/mcxn
+owners: 下里巴人(hywing)<hywing.sir@qq.com>
 
 tag: bsp_rt-spark
 path: bsp/stm32/stm32f407-rt-spark
@@ -69,13 +81,57 @@ tag: bsp_renesas
 path: bsp/renesas
 owners: Yuqiang Wang(kurisaW)<2053731441@qq.com>
 
+tag: bsp_stm32
+path: bsp/stm32
+owners: Liya Huang(wdfk-prog)<1425075683@qq.com>
+
+tag: bsp_stm32h723-st-nucleo
+path: bsp/stm32/stm32h723-st-nucleo
+owners: 下里巴人(hywing)<hywing.sir@qq.com>
+
+tag: bsp_stm32g030-tiny-board
+path: bsp/stm32/stm32g030-tiny-board
+owners: 下里巴人(hywing)<hywing.sir@qq.com>
+
+tag: bsp_stm32h743-st-nucleo
+path: bsp/stm32/stm32h743-st-nucleo
+owners: PengXu(LittleGreyG)<18825981694@163.com>
+
+tag: bsp_stm32h750-artpi
+path: bsp/stm32/stm32h750-artpi
+owners: PengXu(LittleGreyG)<18825981694@163.com>
+
 tag: documentation
 path: documentation
-owners: Chen Wang(unicornx)<unicorn_wang@outlook.com>, Guorui Li(GorrayLi)<liguorui1213@163.com>
+owners: Chen Wang(unicornx)<unicorn_wang@outlook.com>, Guorui Li(GorrayLi)<liguorui1213@163.com>, Lian Wang(lianux-mm)<lianux.mm@gmail.com>, Xiansong Cao(CXSforHPU)<19511928573@163.com>
+
+tag: driver_can
+path: components/drivers/can
+owners: Liya Huang(wdfk-prog)<1425075683@qq.com>
+
+tag: driver_i2c
+path: components/drivers/i2c
+owners: Liya Huang(wdfk-prog)<1425075683@qq.com>
+
+tag: driver_pm
+path: components/drivers/pm
+owners: Liya Huang(wdfk-prog)<1425075683@qq.com>
+
+tag: driver_spi
+path: components/drivers/spi
+owners: Liya Huang(wdfk-prog)<1425075683@qq.com>
+
+tag: driver_ymodem
+path: components/utilities/ymodem
+owners: Liya Huang(wdfk-prog)<1425075683@qq.com>
+
+tag: fal
+path: components/fal
+owners: Yucai Liu(illustriousness)<1486344514@qq.com>
 
 tag: kernel
 path: src
-owners: Guorui Li(GorrayLi)<liguorui1213@163.com>
+owners: Guorui Li(GorrayLi)<liguorui1213@163.com>, Lian Wang(lianux-mm)<lianux.mm@gmail.com>, Liya Huang(wdfk-prog)<1425075683@qq.com>
 
 tag: libc
 path: components/libc
