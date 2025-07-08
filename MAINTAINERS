@@ -45,6 +45,10 @@
 
 # Below are existing maintainer entries, divided by module:
 
+tag: at
+path: components/net/at
+owners: Chen Beidou(Ryan-CW-Code)<1831931681@qq.com>
+
 tag: bsp_cvitek
 path: bsp/cvitek
 owners: Chen Wang(unicornx)<unicorn_wang@outlook.com>
@@ -69,6 +73,10 @@ tag: bsp_mcxn
 path: bsp/nxp/mcx/mcxn
 owners: 下里巴人(hywing)<hywing.sir@qq.com>
 
+tag: bsp_mm32f526x
+path: bsp/mm32f526x
+owners: Huanyi Mai(Chasel)<m19825309307@163.com>
+
 tag: bsp_rt-spark
 path: bsp/stm32/stm32f407-rt-spark
 owners: Bingru Zhang(Rbb666)<751061401@qq.com>, Yuqiang Wang(kurisaW)<2053731441@qq.com>
@@ -76,6 +84,11 @@ owners: Bingru Zhang(Rbb666)<751061401@qq.com>, Yuqiang Wang(kurisaW)<2053731441
 tag: bsp_ultrarisc
 path: bsp/ultrarisc/ur_dp1000_evb
 owners: Zhang Jing(zhangjing0303)<zhangjing@ultrarisc.com>
+
+tag: bsp_ESP32_C3
+path: bsp/ESP32_C3/builtin_imgs
+path: bsp/ESP32_C3/drivers
+owners: Damoshed_Xu(xu18838022837)<496121493@qq.com>
 
 tag: bsp_renesas
 path: bsp/renesas
@@ -100,6 +113,14 @@ owners: PengXu(LittleGreyG)<18825981694@163.com>
 tag: bsp_stm32h750-artpi
 path: bsp/stm32/stm32h750-artpi
 owners: PengXu(LittleGreyG)<18825981694@163.com>
+
+tag: bsp_wch
+path: bsp/wch
+owners: Huanyi Mai(Chasel)<m19825309307@163.com>
+
+tag: components
+path: components
+owners: Huanyi Mai(Chasel)<m19825309307@163.com>
 
 tag: documentation
 path: documentation
@@ -131,11 +152,15 @@ owners: Yucai Liu(illustriousness)<1486344514@qq.com>
 
 tag: kernel
 path: src
-owners: Guorui Li(GorrayLi)<liguorui1213@163.com>, Lian Wang(lianux-mm)<lianux.mm@gmail.com>, Liya Huang(wdfk-prog)<1425075683@qq.com>
+owners: Damoshed_Xu(xu18838022837)<496121493@qq.com>, Guorui Li(GorrayLi)<liguorui1213@163.com>, Lian Wang(lianux-mm)<lianux.mm@gmail.com>, Liya Huang(wdfk-prog)<1425075683@qq.com>
 
 tag: libc
 path: components/libc
 owners: Meco Jianting Man(mysterywolf)<920369182@qq.com>, Guorui Li(GorrayLi)<liguorui1213@163.com>
+
+tag: lwp
+path: components/lwp
+owners: Damoshed_Xu(xu18838022837)<496121493@qq.com>
 
 tag: maintainers
 path: MAINTAINERS
@@ -149,8 +174,10 @@ tag: serial_v2
 path: components/drivers/serial/dev_serial_v2.c
 path: components/drivers/include/drivers/dev_serial_v2.h
 path: examples/utest/testcases/drivers/serial_v2
-owners: Chen Bei Dou(Ryan-CW-Code)<1831931681@qq.com>
+owners: Chen Beidou(Ryan-CW-Code)<1831931681@qq.com>
 
 tag: workflow
 path: .github
 owners: supper thomas(supperthomas)<78900636@qq.com>, Bingru Zhang(Rbb666)<751061401@qq.com>, Yuqiang Wang(kurisaW)<2053731441@qq.com>
+
+
